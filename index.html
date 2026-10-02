@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idle Climbing Tycoon</title>
+<meta name="description" content="Idle Climbing Tycoon — fais grandir ta salle d'escalade, même quand tu n'es pas là.">
+<style>
+  :root {
+    --bg: #F8F1E3;
+    --surface: #FFFDF8;
+    --ink: #2E2A26;
+    --ink-muted: #8B7C69;
+    --teal: #14A5A0;
+    --teal-dark: #0D807C;
+    --coral: #FF6B4A;
+    --amber: #FFC43D;
+    --border: #EADFCB;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #211D19;
+      --surface: #2A2621;
+      --ink: #F3ECDF;
+      --ink-muted: #B8AC9B;
+      --border: #3B352E;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 20px 48px;
+    text-align: center;
+  }
+  .holds { display: flex; justify-content: center; gap: 14px; margin-bottom: 20px; }
+  .holds svg { width: 46px; height: 46px; }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px;
+  }
+  p.tagline {
+    color: var(--ink-muted);
+    font-size: 17px;
+    margin: 0 0 36px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 14px;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  nav a:hover { border-color: var(--teal); }
+  footer {
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--teal-dark); }
+</style>
+</head>
+<body>
+<main>
+  <div class="holds" aria-hidden="true">
+    <svg viewBox="-20 -20 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M-16 4 C-18 -10 -6 -15 0 -15 C8 -15 18 -10 16 4 C15 10 9 11 5 9 C2 7 -2 7 -5 9 C-9 11 -15 10 -16 4 Z" fill="#7B5BE6" stroke="#2E2A26" stroke-width="2" stroke-linejoin="round"/></svg>
+    <svg viewBox="-20 -20 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M-16 7 C-16 -7 -8 -13 0 -13 C8 -13 16 -7 16 7 C10 10 -10 10 -16 7 Z" fill="#FF6B4A" stroke="#2E2A26" stroke-width="2" stroke-linejoin="round"/></svg>
+    <svg viewBox="-20 -20 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M-12 -4 C-13 -12 -4 -15 1 -12 C6 -16 14 -12 14 -4 C17 3 13 12 5 12 C0 15 -8 14 -11 10 C-16 6 -16 1 -12 -4 Z" fill="#3FAE5A" stroke="#2E2A26" stroke-width="2" stroke-linejoin="round"/></svg>
+  </div>
+  <h1>Idle Climbing Tycoon</h1>
+  <p class="tagline">Fais grandir ta salle d'escalade, même quand tu n'es pas là.</p>
+  <nav>
+    <a href="https://wonderful-spruce-9a7.notion.site/Support-Idle-Climbing-Tycoon-3e2427accbc181628b1ac446fb26485b">Support</a>
+    <a href="https://wonderful-spruce-9a7.notion.site/Politique-de-confidentialit-Idle-Climbing-Tycoon-3e2427accbc18187b01ee6b6ec9a326f">Confidentialité</a>
+    <a href="https://wonderful-spruce-9a7.notion.site/Conditions-d-utilisation-Idle-Climbing-Tycoon-3e2427accbc18128acaadbdfc6f15919">Conditions d'utilisation</a>
+    <a href="https://wonderful-spruce-9a7.notion.site/Mentions-l-gales-Idle-Climbing-Tycoon-3e2427accbc181c789f7db4ffbfc721e">Mentions légales</a>
+  </nav>
+  <footer>
+    Une question ? <a href="mailto:valentin.carrichon@outlook.com">valentin.carrichon@outlook.com</a>
+  </footer>
+</main>
+</body>
+</html>
